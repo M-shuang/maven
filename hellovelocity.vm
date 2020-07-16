@@ -1,0 +1,5 @@
+#{if}($status == 0)
+$date，银行账号为：$accountNo，$warning
+#{elseif}($status == -1)
+$date，银行账号为：$accountNo，账单文件名称为：$billFileName，$warning
+#{end}
